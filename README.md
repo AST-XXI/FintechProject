@@ -1,11 +1,12 @@
 # FinTech Project1 - Cryptara, the friendly Robo Advisor that helps investors make effective investment decisions in the Crypto Market.
 
 ## Installation
-### The following libraries are required to run Cryptara:
+### The following API and websockets are required to run Cryptara:
     1. TVDATAFEED
     pip install --upgrade --no-cache-dir git+https://github.com/StreamAlpha/tvdatafeed.git
     2. TAHandler
     pip install tradingview-ta
+
     
 ## Trading View API runs on separate Python libraries then the Pyviz environment, thus two separate environments are needed to run the Roboadvisor and Visualization scripts. Additional information is below:
 
